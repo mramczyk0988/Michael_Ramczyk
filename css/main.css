@@ -1,0 +1,47 @@
+body {
+align-items: center;
+margin: 0;
+height: 100vh;
+
+text-align: center;
+}
+
+    h1 {
+        position: absolute;
+        top: 2em;
+        left: 2em;
+        font-family: 'Montserrat';
+        font-size: 7em;
+        text-transform: uppercase;
+        width: auto;
+        line-height: .8em;
+        border: 5px solid rgb(238, 230, 230);
+        padding: .2em;
+        color: whitesmoke;
+        align-self: center;
+        
+      }
+
+
+    
+.glow {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes glow {
+  from {
+  
+  /* text-shadow:    0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #fff,
+  0 0 80px #fff,
+  0 0 120px #fff,
+  0 0 160px #fff */
+  }
+  to {
+ 
+  text-shadow:  0 0 10px #fff, 0 0 30px #fffdfe, 0 0 40px #eee7e9, 0 0 50px #f5eff1, 0 0 60px #faf4f7, 0 0 70px #fff5faa6, 0 0 80px #f3f3f393;
+  }
+  }
